@@ -1,0 +1,114 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:fillViewport="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/instructor_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:backgroundTint="@color/colorGreen"
+            android:hint="InstructorID"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="@color/colorGreen"
+            android:textColorHint="@color/colorGrey"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/preferences_rl"
+            android:layout_width="320dp"
+            android:layout_height="390dp"
+            android:layout_below="@id/instructor_id"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorGreen"
+            android:elevation="3dp">
+
+            <TextView
+                android:id="@+id/static_preferences"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Preferences"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/preference1_spinner"
+                android:layout_width="270dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/static_preferences"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/spinner_drawable" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/preference2_spinner"
+                android:layout_width="270dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/preference1_spinner"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/spinner_drawable" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/preference3_spinner"
+                android:layout_width="270dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/preference2_spinner"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/spinner_drawable" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/preference4_spinner"
+                android:layout_width="270dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/preference3_spinner"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/spinner_drawable" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/preference5_spinner"
+                android:layout_width="270dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/preference4_spinner"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/spinner_drawable" />
+
+        </RelativeLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/preferences_submit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/preferences_rl"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_submit"
+            app:backgroundTint="@color/colorGreen"
+            app:fabSize="normal"
+            app:elevation="0dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

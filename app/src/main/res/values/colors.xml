@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Auto generated colors-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <!-- Customized colors -->
+    <color name="colorGreen">#0b7e41</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrey">#d2d5db</color>
+    <color name="colorLightGrey">#f2f2f2</color>
+    <color name="colorRed">#c93243</color>
+    <color name="colorYellow">#ffca1c</color>
+
+</resources>

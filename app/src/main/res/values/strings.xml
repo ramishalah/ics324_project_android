@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">DatabaseProject</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="ics_courses">
+        <item>Course List ...</item>
+        <item>ICS102</item>
+        <item>ICS103</item>
+        <item>ICS201</item>
+        <item>ICS202</item>
+        <item>ICS233</item>
+        <item>ICS253</item>
+        <item>ICS254</item>
+        <item>ICS309</item>
+        <item>ICS324</item>
+        <item>ICS343</item>
+        <item>ICS350</item>
+        <item>ICS351</item>
+        <item>ICS353</item>
+        <item>ICS355</item>
+        <item>ICS381</item>
+        <item>ICS399</item>
+        <item>ICS410</item>
+        <item>ICS411</item>
+        <item>ICS412</item>
+        <item>ICS415</item>
+        <item>ICS424</item>
+        <item>ICS426</item>
+        <item>ICS431</item>
+        <item>ICS436</item>
+        <item>ICS437</item>
+        <item>ICS352</item>
+        <item>ICS443</item>
+        <item>ICS444</item>
+        <item>ICS446</item>
+        <item>ICS447</item>
+        <item>ICS454</item>
+        <item>ICS481</item>
+        <item>ICS482</item>
+        <item>ICS483</item>
+        <item>ICS484</item>
+        <item>ICS485</item>
+        <item>ICS486</item>
+        <item>ICS488</item>
+        <item>ICS490</item>
+        <item>ICS491</item>
+        <item>SWE205</item>
+        <item>SWE215</item>
+        <item>SWE311</item>
+        <item>SWE312</item>
+        <item>SWE316</item>
+        <item>SWE321</item>
+        <item>SWE326</item>
+        <item>SWE344</item>
+        <item>SWE363</item>
+        <item>SWE387</item>
+        <item>SWE416</item>
+        <item>SWE417</item>
+        <item>SWE418</item>
+        <item>SWE436</item>
+        <item>SWE399</item>
+        <item>SWE469</item>
+        <item>SWE487</item>
+        <item>SWE490</item>
+        <item>SWE491</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>inreview</item>
+        <item>approved</item>
+        <item>rejected</item>
+    </string-array>
+
+</resources>

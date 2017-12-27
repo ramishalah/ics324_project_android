@@ -1,0 +1,36 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:padding="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/get_preferences"
+            android:background="@drawable/option_drawable_thick"
+            android:text="Get Preferences"
+            android:textColor="@color/colorGreen"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/get_preferences"
+            android:layout_marginTop="20dp"
+            android:focusable="true"
+            android:id="@+id/preferences_lv"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

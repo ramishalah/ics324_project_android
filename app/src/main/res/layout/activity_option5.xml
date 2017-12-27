@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:clipToPadding="false">
+
+    <RelativeLayout
+        android:id="@+id/field_la"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorGreen"
+        android:padding="10dp"
+        >
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/option5_spinner"
+            android:layout_centerInParent="true"
+            android:background="@drawable/spinner_drawable"
+            android:layout_marginTop="10dp">
+
+        </android.support.v7.widget.AppCompatSpinner>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/option5_search"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:backgroundTint="@color/colorWhite"
+        android:src="@drawable/ic_search"
+        android:scaleType="center"
+        app:fabSize="normal"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        app:elevation="10dp"
+        android:layout_marginTop="80dp"/>
+
+    <ListView
+        android:id="@+id/option5_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/option5_search"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="2dp"></ListView>
+
+
+</RelativeLayout>

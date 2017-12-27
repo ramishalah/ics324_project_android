@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="agha.databaseproject.Activities.MainActivity"
+    android:background="@color/colorWhite">
+
+    <Button
+        android:id="@+id/admin_instructors_taught_courses"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/option_drawable_thick"
+        android:text="Instructors Taught Courses"
+        android:textColor="@color/colorGreen"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/admin_courses_taught"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/option_drawable_thick"
+        android:text="Courses Taught by Instructors"
+        android:textColor="@color/colorGreen"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/admin_instructors_taught_courses"/>
+
+    <Button
+        android:id="@+id/admin_eligible_student"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/option_drawable_thick"
+        android:text="Eligible Student"
+        android:textColor="@color/colorGreen"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/admin_courses_taught"/>
+
+    <Button
+        android:id="@+id/admin_eligible_instructors"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/option_drawable_thick"
+        android:text="Eligible Instructors"
+        android:textColor="@color/colorGreen"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/admin_eligible_student"/>
+
+
+
+</RelativeLayout>
